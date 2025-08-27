@@ -1,3 +1,5 @@
+O código do 'coiso.dart' deve ser inserido no documento principal de um arquivo flutter.
+
 Dentro do HeidiBD, criar o banco com os seguintes comandos SQL:
 
 CREATE DATABASE client_order_system; 
@@ -19,3 +21,5 @@ status ENUM('pending', 'completed', 'cancelled') DEFAULT 'pending',
 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
 FOREIGN KEY (client_id) REFERENCES clients(client_id) 
 ); 
+
+
